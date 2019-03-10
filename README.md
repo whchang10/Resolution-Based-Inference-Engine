@@ -5,7 +5,15 @@
 The resolution inference engine provides three main functions
 - TELL: add a sentence to the knowledge base.<br>
 - ASK: query a proposition is true or false.<br>
-- CLEAR: clean the knowedge base.<br><br>
+- CLEAR: clean the knowedge base.<br>
+For example,<br>
+>>> TELL([“or”, [“not”, “a”], “b”])<br>
+>>> TELL([“or”, [“not”, “b”], “c”])<br>
+>>> TELL(“a”)<br>
+>>> ASK(“c”)<br>
+True<br>
+>>> ASK(“d”)<br>
+False<br><br>
 
 More information about conjunctive normal form (CNF)<br>
 https://en.wikipedia.org/wiki/Conjunctive_normal_form<br>
