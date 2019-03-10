@@ -5,7 +5,7 @@
 The resolution inference engine provides three main functions:
 - TELL: add a sentence to the knowledge base.<br>
 - ASK: query a proposition is true or false.<br>
-- CLEAR: clean the knowedge base.<br>
+- CLEAR: clean the knowedge base.
 
 For example,<br>
 \>>> TELL([“or”, [“not”, “a”], “b”])<br>
