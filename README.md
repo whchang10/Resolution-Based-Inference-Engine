@@ -1,6 +1,6 @@
 # Resolution Based Inference Engine
-- Implement a resolution function resolving two sentences that are already in conjunctive normal form (CNF).
-- Reuse it to implement a complete resolution inference engine accepting conjunctive normal form (CNF) sentences.<br><br>
+- Implemented a resolution function resolving two sentences that are already in conjunctive normal form (CNF).
+- Reused it to implement a complete resolution inference engine accepting conjunctive normal form (CNF) sentences.<br><br>
 
 The resolution inference engine provides three main functions:
 - TELL: add a sentence to the knowledge base.<br>
